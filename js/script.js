@@ -40,7 +40,7 @@ if (wallet.isSignedIn()) {
 loginBtn.addEventListener('click', () => {
   if (wallet.isSignedIn()) {
     wallet.signOut();
-    loginBtn.textContent = 'Sign In';
+    loginBtn.textContent = 'Connect to NEAR';
     widgetInfo.style.display = 'none';
   } else {
     wallet.requestSignIn({
