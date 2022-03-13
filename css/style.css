@@ -55,13 +55,13 @@ button:focus {
   background: #2b2d46;
   padding: 0 15px;
   border-radius: 20px;
+  width: 300px;
 }
 
 .widget__account__address {
   font-size: 22px;
   font-weight: 300;
   margin-right: auto;
-  width: 220px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
