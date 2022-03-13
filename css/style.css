@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+html {
+  background-color: #c8c8c8;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border: 0;
+  background: #0177FB;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+button:hover,
+button:focus {
+  opacity: .85;
+}
+
+.widget {
+  min-width: 390px;
+  background: #23242F;
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.widget__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 20px 0;
+}
+
+.widget__account {
+  display: flex;
+  align-items: center;
+  background: #2b2d46;
+  padding: 0 15px;
+  border-radius: 20px;
+}
+
+.widget__account__address {
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: auto;
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.widget__action-btn {
+  width: 40px;
+  height: 40px;
+  background: #3B3C4E;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget__action-btn:hover {
+  opacity: .7;
+}
+
+.widget__action-btn:last-of-type {
+  margin-left: 10px;
+}
+
+.widget__action-btn svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.widget__balance {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.sign-in {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in svg {
+  margin-left: 10px;
+}
