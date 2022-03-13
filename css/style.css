@@ -33,7 +33,7 @@ button:focus {
 }
 
 .widget {
-  min-width: 390px;
+  max-width: 390px;
   background: #23242F;
   border-radius: 24px;
   padding: 24px;
